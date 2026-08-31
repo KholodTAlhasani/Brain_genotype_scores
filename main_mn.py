@@ -43,7 +43,7 @@ def setup_parameters(label_file):
         'SNP_measure': 'genotype',
         'test_percent': 0.1,
         'val_percent': 0.1,
-        'nb_epochs': 25,         # how does it differes from the number of epoch
+        'nb_epochs': 25,         
         'batch_size': 20,
         'input_size': 1728,
         'num_workers': 16,       # normal 16, for debugging 0, or you will get an error in the DataLoaders
